@@ -1,4 +1,8 @@
-﻿namespace Lesson5
+﻿using System;
+using System.Globalization;
+
+
+namespace Lesson5
 {
     class Lesson
     {
