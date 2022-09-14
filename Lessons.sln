@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons", "Lessons\Lessons.csproj", "{834E7F52-B303-43C4-AC12-8329360AFB84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubleSort", "BubleSort", "{C791226A-991E-4FB2-8532-17B8F56F9045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buble", "Buble\Buble.csproj", "{88C49FA4-121F-42ED-98D4-CB57BCE65ADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{834E7F52-B303-43C4-AC12-8329360AFB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{834E7F52-B303-43C4-AC12-8329360AFB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{834E7F52-B303-43C4-AC12-8329360AFB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{834E7F52-B303-43C4-AC12-8329360AFB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C49FA4-121F-42ED-98D4-CB57BCE65ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C49FA4-121F-42ED-98D4-CB57BCE65ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C49FA4-121F-42ED-98D4-CB57BCE65ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C49FA4-121F-42ED-98D4-CB57BCE65ADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88C49FA4-121F-42ED-98D4-CB57BCE65ADF} = {C791226A-991E-4FB2-8532-17B8F56F9045}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CFBA63E-F1B2-4FA2-96D4-B4A0E29A4633}
